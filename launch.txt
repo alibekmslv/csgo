@@ -1,1 +1,1 @@
--novid -nojoy -high -refresh 144 +exec autoexec.cfg -console -language english
+-novid -nojoy -high -refresh 144 +exec autoexec.cfg -console -language english -fullscreen -w 1280 -h 960
