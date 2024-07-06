@@ -1,1 +1,11 @@
--novid -nojoy -high -refresh 144 +exec autoexec.cfg -console -language english -fullscreen -w 1280 -h 960
+-novid -nojoy -high +exec autoexec.cfg -console -language english -full -w 1920 -h 1080
+
+
+-novid - Intro video is disabled.
+-nojoy - Switching off joysticks, and joystick support.
+-high - Use this launch option to set up the CS 2 high-priority process.
++exec file name - Launch option that launches the config with game settings (.cfg). The file should be placed in the folder "Steam\SteamApps\common\Counter-Strike Global Offensive\cs2\cfg".
+-console - The option will force the console to open once the game is started.
+-language English - Interface language customization for CS 2. In this case, the English language is indicated, however, you can use any other language you like.
+-full (-fullscreen) - The game will start in full-screen mode.
+-w 1920; -h 1080 - Setting up desired CS2 screen resolution (graphics settings), h height, w width.
